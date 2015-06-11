@@ -1,0 +1,22 @@
+// grid vars
+
+$breakpoint-max:        1280px;
+$breakpoint-mid:		1024px;
+$breakpoint-min:        768px;
+
+$breakpoint-lg:			$breakpoint-max;
+$breakpoint-md:         $breakpoint-mid;
+$breakpoint-sm:         $breakpoint-min;
+
+$breakpoint-lg-min:		$breakpoint-lg;
+$breakpoint-md-max:     $breakpoint-lg-min - 1;    // 1279px
+$breakpoint-md-min:     $breakpoint-md;            // 1024px
+$breakpoint-sm-max:     $breakpoint-md - 1;        // 1023px
+$breakpoint-sm-min:		320px;
+
+
+// basic colors
+$grey-light:		#eee;
+$grey-mid:			#ccc;
+$grey-dark:			#333;
+

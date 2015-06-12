@@ -1,71 +1,7 @@
+// CSS reset
+@import "normalize.scss";
+
 @import "mixins.scss";
 
-// basic reset
-* {
-    padding: 0;
-    margin: 0;
-    outline: none;
-}
-
-html,
-body {
-    font-family: "Open sans", sans-serif;
-    background-color: white;
-}
-
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-
-    font-weight: normal;
-    font-size: 10px;
-}
-
-body {
-    font-size: 1rem;
-    margin: 0;
-}
-
-h1 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-    margin: 12px 0;
-}
-
-h2 {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    margin: 12px 0;
-}
-
-.content-wrap {
-    background: white;
-    outline: 1px solid #ccc;
-    margin: 0 auto;
-    padding: 12px;
-    width: 100%;
-    min-width: 320px;
-
-    @include small {
-        max-width: 480px;
-    }
-
-    @include medium {
-        max-width: 960px;
-    }
-
-    @include large {
-        max-width: 1024px;
-    }
-}
-
-ul {
-    list-style: none;
-    margin: 12px 0;
-
-    li {
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-        margin-left: 12px;
-    }
-}
+@import "structure.scss";
+@import "theme.scss";

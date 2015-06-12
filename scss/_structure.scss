@@ -1,0 +1,48 @@
+@import "vars.scss";
+@import "mixins.scss";
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+h1 {
+    margin: $content-margins;
+}
+
+h2 {
+    margin: $content-margins;
+}
+
+.content-wrap {
+    margin: 0 auto;
+    padding: 12px;
+    width: 100%;
+    min-width: 320px;
+
+    @include small {
+        max-width: 480px;
+    }
+
+    @include medium {
+        max-width: 960px;
+    }
+
+    @include large {
+        max-width: 1024px;
+    }
+}
+
+ul {
+    margin: $content-margins;
+
+    li {
+        margin-left: 12px;
+    }
+}

@@ -1,0 +1,64 @@
+@import "fonts";
+
+
+html,
+body {
+    font-family: "Roboto slab", sans-serif;
+    background-color: #333;
+}
+
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+    font-weight: normal;
+    font-size: 10px;
+}
+
+
+body {
+    font-size: 1rem;
+}
+
+
+h1 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.content-wrap {
+/*
+    background: white;
+    background: #299a0b;
+    background: -webkit-linear-gradient(top, #299a0b 0%,#299a0b 100%);
+    background: linear-gradient(to bottom, #299a0b 0%,#299a0b 100%);
+*/
+
+    color: $content-color;
+    outline: 1px solid $content-color;
+}
+
+ul {
+    list-style: none;
+
+    li {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+}
+
+a {
+    color: $content-color;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
